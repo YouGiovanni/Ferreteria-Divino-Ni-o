@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/*Circulitos */
+.background{
+    width: 830px;
+    height: 720px;
+    position: absolute;
+    transform: translate(-60%,-45%);
+    left: 55%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child{
+    background: linear-gradient(
+        #0b6c96,
+        #fdfdfd
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #0b6c96,
+        #fdfdfd
+    );
+    right: -30px;
+    bottom: -80px;
+}
+/* Termino de circulos*/
+
+
+
+.contenedor-2{
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 5%;
+    left: 0;
+}
+
+.asignar-2{
+    background-color: #0b6c96c2;
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-10%, -50%);
+    width: 55%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 60px;
+}
+
+
+
+.titulo{
+    color: aliceblue;
+    margin: 20px 0px 20px 0px;
+    font-size: 28px;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2 ;
+}
+
+
+.input{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(236, 225, 225, 0.596);
+    margin: 5px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+
+.input i{
+    text-align: center;
+    line-height: 55px;
+    font-size: 1rem;
+    color:aliceblue;
+}
+
+
+.input input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.input input::placeholder{
+    color: rgb(248, 248, 248);
+    font-weight: 90;
+}
+
+
+.btn{
+    width: 120px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:#f27c14c9;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 60;
+    margin: 8px 0;
+    transition: .8s;
+}
+
+.btn:hover{
+    background-color:#f27c14c9;
+    
+}
+
+.sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.iconos{
+    height: 46px;
+    width: 46px;
+    border: 1px solid;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+.overlay-container {
+    background-color:#0b6c96c2;
+	position: absolute;
+	top: 0;
+    margin-top: 50px;
+	left: 49%;
+	width: 50%;
+	height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 60px;
+}
+
+
+.overlay {
+	position: absolute;
+	left: -100%;
+	height: 90%;
+	width: 200%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 80px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+}
+
+
+.overlay-right {
+	right: 0;
+    flex-direction: column;
+}
+
+.overlay-container p, h1{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+/*Media query ""*/
+
+@media (max-width: 870px){
+    .contenedor-2{
+        min-height: 100%;
+        min-width: 80%;
+        display: block;
+        margin:90px 0px 0px 50px;
+        display: block;
+    }
+    
+    .titulo{
+        font-size: 30px;
+    }
+
+    .input i{
+        text-align: center;
+        line-height: 55px;
+        font-size: 1rem;
+        color:aliceblue;
+    }
+
+    .input{
+        margin: 15px;
+        width: 130%;
+    }
+
+    .asignar-2{
+        width: 90%;
+        left: 55%;
+        top: 65%;
+        transform: translate(-50%,-100%);
+        display: block;
+    }
+
+    .redes-sociales{
+        text-align: center;
+        font-size: 12px;
+        color: hsl(234, 84%, 10%);
+    }
+
+    .contrase{
+        font-size: 8px;
+        min-height: 10px;
+        display: inline-block;
+        margin: 40px 0px 1px 0px;
+    }
+
+    .overlay{
+        font-size: 12px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .overlay-container{
+        display: flex;
+        margin-top: 600px;
+        margin-left: -23%;
+        height: 130%;
+     }
+
+
+
+}

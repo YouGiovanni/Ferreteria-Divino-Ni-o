@@ -1,0 +1,184 @@
+
+:root {
+    --app-bg: #000000;
+    --sidebar: rgb(0, 0, 0);
+    --sidebar-main-color: rgb(0, 6, 95);
+    --table-border: #020202;
+    --table-header: #000000;
+    --app-content-main-color: rgb(0, 1, 87);
+    --sidebar-link: rgb(2, 0, 109);
+    --sidebar-active-link: #000000;
+    --sidebar-hover-link: #000000;
+    --action-color: #2869ff;
+    --action-color-hover: #6291fd;
+    --app-content-secondary-color: #5578c225;
+    --filter-reset: #2c394f;
+    --filter-shadow: rgba(16, 24, 39, 0.8) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .img{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-left: 19px;
+  }
+  
+  .clas{
+    float:left;
+  }
+  .light:root {
+    --app-bg: rgb(0, 0, 0);
+    --sidebar: #000000;
+    --app-content-secondary-color: #000000;
+    --app-content-main-color: #1f1c2e;
+    --sidebar-link: #1f1c2e;
+    --sidebar-hover-link: rgba(43, 66, 138, 0.5);
+    --sidebar-active-link: rgb(0, 60, 241);
+    --sidebar-main-color: #1f1c2e;
+    --filter-shadow: rgba(255, 0, 0, 0.2) 0px 2px 8px 0px;
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+/*ESTILOS DE LA TABLA DE PRODUCTOS EN CARRITO*/
+  
+.tableView .products-header {
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+	background-color: var(--app-content-secondary-color);
+	position: sticky;
+	top: 0;     
+    margin-left:160px;
+    margin-right:160px;
+  }
+  .tableView .products-row {
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+  }
+  .tableView .products-row:hover {
+	box-shadow: var(--filter-shadow);
+	background-color: var(--app-content-secondary-color);
+  }
+  .tableView .products-row .cell-more-button {
+	display: none;
+  }
+  .tableView .product-cell {
+	flex: 1;
+	padding: 8px 16px;
+	color: var(--app-content-main-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: flex;
+	align-items: center;
+    font-size: 17px;
+  }
+  .tableView .product-cell img {
+	width: 32px;
+	height: 32px;
+	border-radius: 6px;
+	margin-right: 6px;
+  }
+  @media screen and (max-width: 780px) {
+	.tableView .product-cell {
+	  font-size: 12px;
+	}
+	.tableView .product-cell.image span {
+	  display: none;
+	}
+	.tableView .product-cell.image {
+	  flex: 0.2;
+	}
+  }
+  @media screen and (max-width: 520px) {
+	.tableView .product-cell.category, .tableView .product-cell.sales {
+	  display: none;
+	}
+	.tableView .product-cell.status-cell {
+	  flex: 0.4;
+	}
+	.tableView .product-cell.stock, .tableView .product-cell.price {
+	  flex: 0.2;
+	}
+  }
+  @media screen and (max-width: 480px) {
+	.tableView .product-cell.stock {
+	  display: none;
+	}
+	.tableView .product-cell.price {
+	  flex: 0.4;
+	}
+  }
+
+
+/*ESTILOS DE LA TABLA DE PRODUCTOS EN CARRITO*/ 
+
+#cuerpoproductos{
+     
+    margin-left:10px;
+    padding-right: 30px;
+    width: 250px;
+    margin-bottom: 15px;
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+
+
+}
+#cuerpoproductos1{
+     
+    margin-left:10px;
+    width: 250px;
+    margin-bottom: 15px;
+    color:rgb(0, 0, 0);
+        font-size: 17px;
+        text-decoration: none;
+}
+#cuerpoproductos4{
+    
+  margin-left:90px;
+  width: 250px;
+  margin-bottom: 15px;
+  color:rgb(0, 0, 0);
+      font-size: 17px;
+      text-decoration: none;
+}
+#cuerpoproductosal{
+  margin-left:70px;
+  width: 250px;
+  margin-bottom: 15px;
+  color:rgb(0, 0, 0);
+      font-size: 17px;
+      text-decoration: none;
+}
+#cuerpoproductos11{
+     
+  margin-left:130px;
+  width: 250px;
+  margin-bottom: 15px;
+  color:rgb(0, 0, 0);
+      font-size: 17px;
+      text-decoration: none;
+}
+#cuerpoproductos3{
+    background-color:#5578c225;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 30px;
+    color:rgb(0, 0, 0);
+    font-size: 17px; 
+    text-decoration: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,685 @@
+body{
+    background-color: #e0e0e0;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Encabezado{
+    background-color: black;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.imgcompra{
+    width: 22px;
+	height: 22px;
+}
+
+.imgcarrito{
+    width: 40px;
+	height: 40px;
+}
+.imgcarrito2{
+    width: 30px;
+	height: 30px;
+}
+/*Apartado de envio gratis apartir de cierta cantidad*/
+.envio{
+    background-color: #0b6c96;
+    font-size: 14px; 
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 10px;
+    
+
+}
+/*Estilo para botones de inicio,ayuda,productos, marcas y ubicacion*/
+.apartado1{
+    background-color: #e0e0e0;
+    text-decoration: none;
+    height: 60px;
+}
+/*Logo de la ferreteria que esta aun lado del boton de dezpliegue*/
+.logo{
+    padding-left: 50px;
+    margin-left: 9px;
+    
+	position: fixed;
+
+}
+/*Estilo para botones de inicio,ayuda,productos, marcas y ubicacion*/
+.boini{
+        background-color: #e0e0e0;
+        display: inline-block;
+        font-size: 12px; 
+        padding-top: 19px;
+        padding-bottom: 5px;
+        color: #878786;
+        letter-spacing: 2px;
+        text-decoration: none;
+        overflow: hidden;
+        position: fixed;
+        margin-left: 134px;
+        width: 294px;
+        height: 36px;
+        padding-left: 8px;  
+      }
+      
+.botonapartado1{ 
+    background-color: transparent;
+    display: inline-block;
+    font-size: 12px; 
+    padding-top: 19px;
+    padding-bottom: 5px;
+    color: #878786;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.botonesini{
+
+    float: right;
+}
+.apartado1acerca{
+    display: inline-block;
+    font-size: 12px; 
+    padding-top: 0px;
+    color: #878786;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+/*BOTON DE DEZPLIEGUE PARA CONTACTOS*/
+.barb{
+    margin-bottom: 60px;
+
+}
+
+.bar{
+	width: 7%;
+	height: 4%;
+	position: fixed;
+	transition: .3s all;
+	z-index:1;
+}
+
+.bar ul{
+	padding: 0;
+	text-align: center;
+}
+.bar li{
+	list-style: none;
+	transition: 0.3s all;
+}
+.bar a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+.bar img {
+	height: 60px;
+	width: 60px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.bar:hover{
+	width: 300px;
+	height: 100%;
+	background-color: rgba(238, 239, 240, 0.9);
+}
+.bar:hover a{
+	font-size: 20px;
+	color: #7F7F7F;
+	display: block;
+	padding: 20px;
+}
+.bar:hover img {
+	height: 0px;
+	width: 0px;
+}
+.bar:hover li {
+	list-style: none;
+	border-top: 2px solid #B1B2B3;
+	width: 80%;
+	margin-left: 10%;
+}
+.bar:hover a:hover{
+	color: #525151;
+	font-size: 20px;
+	padding: 30px 0px;
+	background-color: rgba(188, 188, 188, 0.5);
+}
+
+
+
+
+
+.enc{
+    position: fixed;
+    width: 100%;
+}
+
+
+
+    /*Apartado de Boton de compras*/
+    #bu1 {
+        font-size: 14px;
+        border: none;
+        color: white;
+        width: 149px;
+        height: 47px;
+        background: #F27D14;
+        padding-top: 1.5%;
+        margin-top: 0%;
+        float: right;
+        text-decoration: none
+        }
+    #bu1:hover{
+        color: white;
+        background-color: rgba(233, 179, 128, 0.9);
+    }
+
+    /*  FIN Apartado de Boton de compras*/
+
+/*Estilo de carrucel */
+.car{
+    margin-top:30px;
+}
+  .slide {
+    position: relative;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.64);
+    margin-top: 20px;
+    width:900px ;
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 300px + 3em);
+}
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 10;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+ /* Estilo de boton de avance de carrucel */
+
+
+.slide-control { 
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3 {
+    display: block;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.slide-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slide-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.slide-circulo:hover {
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador 
+     li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador 
+      li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador 
+      li:nth-child(3) .slide-circulo {
+    color: #428bca;
+}
+
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+         -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/*Fin de estilo de carrucel*/
+
+/*boton de copra de producto de carrucel*/
+#btn1 {
+	text-align: center;
+    margin-right: 150px;
+	padding: 10px;
+	background: orange;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	position: relative;
+	font-weight: bold;
+    width: 100px;
+    height: 94px;
+
+}
+#btn1:hover {
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+.imgbt {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	position: relative;
+}
+
+/*fin de boton*/
+
+.apartado1a{
+    background-color: transparent;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.apartado2{
+    background-color: white;
+    margin-bottom: 10px;
+    float: right;
+}
+
+
+/*Aqui va el estilo del pie de pagina que ira en todas las paginas*/
+.Footer{
+    background-color: #0b6c96;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 15px; 
+    color: white;
+    position: relative;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 4px;
+}
+
+
+#formcliente{
+ margin-top: 200px;
+}
+
+
+
+/*Productos*/
+
+
+.compra {
+	font-size: 14px;
+    font-family: Louis George CaféS;
+	border: none;
+	color: white;
+    width: 110px;
+    height: 10px;
+	background: #F27D14;
+	padding: 16px;
+	margin-left: 40px;
+    }
+
+
+
+
+.compra:hover{
+	color: white;
+	background-color: rgba(233, 179, 128, 0.9);
+}
+
+
+
+.menu{
+    display: flex;
+    background-color: white;
+    margin: 20px 10px 10px 10px;
+    color: black;
+    min-width:  300px;
+    align-items: center;   
+    text-align: center;
+}
+
+.menu .logo2{
+    width: 120px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.nav-links{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+
+.nav-links a, li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 10px;
+    letter-spacing: .5px;
+    position: relative;
+}
+
+.nav-links a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    background:#110b0b;
+    transition: 0.4s ease-out;
+}
+
+.nav-links a:hover::after{
+    left: 0;
+    width: 100%;
+}
+
+
+.box{
+    position: absolute;
+    right:0px;
+    top: 18%;
+    left: 85%;
+}
+
+
+.box .Buscador{
+    border-radius: 20px;
+    border-color: #000000;
+    background-color: none;
+    padding: 12px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+.materia .barra2{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.materia h1, p{
+    text-align: center;
+    align-items: center;
+}
+
+.materia img{
+    width: 50px;
+    height: 40px;
+}
+
+.barra2 p{
+    position: fixed;
+}
+
+
+.container{
+    display: flex;
+    min-height: 200px;
+    height: 430px;
+    justify-content: center;
+    margin: auto;
+    font-family: Louis George Cafés;
+}
+
+.container .productos{
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.2s;
+    display: inline-block;
+   
+}
+
+.container .productos:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.container .productos img{
+    width: 240px;
+    height: 260px;
+}
+
+.container .productos h2{
+    font-weight: 300;
+    font-family: Louis George Cafés;
+}
+
+.container .productos p{
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Louis George Cafés;
+}
+
+.container .productos a{
+    text-decoration: none;
+    font-family: Louis George Cafés;
+}
+
+
+.BUY {
+	font-size: 14px;
+    font-family: Louis George CaféS;
+	border-color:#c71313;
+	color: rgb(231, 50, 50);
+	background: transparent;
+	padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    }
+
+
+
+/*carrusel de imagenes pequeño*/
+
+.slider {
+	width: 23%;
+	margin-top: 40px;
+	overflow: hidden;
+    font-size: 23px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	10% {margin-left: -100%;}
+	10% {margin-left: -100%;}
+	
+	10% {margin-left: -200%;}
+	10% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+/*ESTILO DE FORMULARIO*/
+
+.header{
+    width: 200px;
+    height:20px;
+    margin-top: 50px;
+    border-radius: 10px;  
+    padding-top: 10px;
+    padding-bottom: 20px;  
+    background-color: #0b6c96; 
+    color: white;
+    width: 360px;
+    margin-bottom: 60px;
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    width: 700px; 
+    height: auto;
+    margin-left: 300px;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  
+}
+
+.textofin{
+    padding-top: 30px;
+}
+.title{
+    height:20px;
+    margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 10px;  
+    padding-top: 10px;
+    padding-bottom: 20px;  
+    background-color: #0b6c96; 
+    color: white;
+    padding-left: 200px; 
+    width: 430px;
+    margin-bottom: 60px;
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title2{
+    height:20px;
+    margin-top: 50px;
+    margin-left: 660px;
+    border-radius: 10px;  
+    padding-top: 10px;
+    padding-bottom: 20px;  
+    background-color: #0b6c96; 
+    color: white;
+    padding-left: 220px; 
+    width: 410px;
+    margin-bottom: 60px;
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textofin{
+    padding-top: 30px;
+}

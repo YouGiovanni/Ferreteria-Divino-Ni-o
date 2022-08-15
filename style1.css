@@ -1,0 +1,55 @@
+body{
+	background: #f5f5f5;
+}
+header{
+	font-weight: bold;
+	font-family: Louis George Cafés;
+	font-size: 30px;
+	text-align: center;
+	background: #616161;
+	margin-right: 30%;
+	margin-left: 30%;
+	border-radius: 10px;
+	margin-top: 40px;
+	padding: 5px;
+	color: #FFFFFF;
+}
+main{
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+	background: #9e9e9e;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 10px;
+}
+section{
+	font-family: sans-serif;
+	display: inline-block;
+}
+.preg{
+	border: none;
+	border-radius: 10px;
+	background: #FFFFFF;
+	margin-left: 80%;
+	padding: 5px 30% 5px 10px;
+}
+p{
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 60%;
+}
+.bot{
+	margin-left: 120%;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	color: #FFFFFF;
+	background: #FFAB91;
+	border: none;
+}
+.bot:hover{
+	background: #F4511E;
+	color: #FCFCFC;
+}

@@ -1,0 +1,234 @@
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipPnthUXkDaNVhZQ-PXSe7mqg3A_gHLver2DZwGx=w1080-h608-p-no-v0");
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #878786; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #F27D14; 
+  border-color: #F27D14; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: rgba(233, 179, 128, 0.9); 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #F27D14;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #0b6c96c2;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #0b6c96c2;
+}
+
+
+
+/*BOTON DE DEZPLIEGUE PARA CONTACTO*/
+.bar{
+	width: 7%;
+	height: 4%;
+	position: fixed;
+	transition: .3s all;
+	z-index:1;
+}
+
+.bar ul{
+	padding: 0;
+	text-align: center;
+}
+.bar li{
+	list-style: none;
+	transition: 0.3s all;
+}
+.bar a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+.bar img {
+	height: 60px;
+	width: 60px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.bar:hover{
+	width: 300px;
+	height: 100%;
+	background-color: rgba(238, 239, 240, 0.9);
+}
+.bar:hover a{
+	font-size: 20px;
+	color: #7F7F7F;
+	display: block;
+	padding: 15px;
+}
+.bar:hover img {
+	height: 0px;
+	width: 0px;
+}
+.bar:hover li {
+	list-style: none;
+	border-top: 2px solid #B1B2B3;
+	width: 80%;
+	margin-left: 10%;
+}
+.bar:hover a:hover{
+	color: #525151;
+	font-size: 20px;
+	padding: 30px 0px;
+	background-color: rgba(188, 188, 188, 0.5);
+}
+
+
+
+
+/*BOTON DE DEZPLIEGUE PARA CONTACTO*/
+
+
+
+
+/*Estilo para botones de inicio,ayuda,productos, marcas y ubicacion*/
+.apartado1{
+  background-color: transparent;
+  text-decoration: none;
+  height: 50px;
+}
+/*Logo de la ferreteria que esta aun lado del boton de dezpliegue*/
+.logo{
+  padding-left: 50px;
+  margin-left: 9px;
+  
+position: fixed;
+
+}
+/*Estilo de texto de Ferreteria:Divino Niño*/
+.boini{
+  background-color: #e0e0e0;
+  display: inline-block;
+  font-size: 12px; 
+  padding-top: 19px;
+  padding-bottom: 5px;
+  color: #878786;
+  letter-spacing: 2px;
+  text-decoration: none;
+  overflow: hidden;
+  position: fixed;
+  margin-left: 134px;
+  width: 250px;
+  height: 36px;
+  padding-left: 8px;  
+}
+
+
+/* CREADO POR: BOARDKEY*/

@@ -1,0 +1,233 @@
+body{
+    background-color: #e0e0e0;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Encabezado{
+    background-color: black;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.imgcompra{
+    width: 18px;
+	height: 18px;
+}
+
+/*Apartado de envio gratis apartir de cierta cantidad*/
+.envio{
+    background-color: #0b6c96;
+    font-size: 14px; 
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 10px;
+
+}
+/*Estilo para botones de inicio,ayuda,productos, marcas y ubicacion*/
+.apartado1{
+    background-color: transparent;
+    text-decoration: none;
+    height: 50px;
+}
+/*Logo de la ferreteria que esta aun lado del boton de dezpliegue*/
+.logo{
+    padding-left: 50px;
+    margin-left: 9px;
+    
+	position: fixed;
+
+}
+/*Estilo para botones de inicio,ayuda,productos, marcas y ubicacion*/
+.boini{
+        background-color: #e0e0e0;
+        display: inline-block;
+        font-size: 12px; 
+        padding-top: 19px;
+        padding-bottom: 5px;
+        color: #878786;
+        letter-spacing: 2px;
+        text-decoration: none;
+        overflow: hidden;
+        position: fixed;
+        margin-left: 134px;
+        width: 294px;
+        height: 36px;
+        padding-left: 8px;  
+      }
+      
+.botonapartado1{ 
+    background-color: transparent;
+    display: inline-block;
+    font-size: 12px; 
+    padding-top: 19px;
+    padding-bottom: 5px;
+    color: #878786;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.botonesini{
+
+    float: right;
+}
+.apartado1acerca{
+    display: inline-block;
+    font-size: 12px; 
+    padding-top: 0px;
+    color: #878786;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+/*BOTON DE DEZPLIEGUE PARA CONTACTOS*/
+.barb{
+    margin-bottom: 60px;
+
+}
+
+.bar{
+	width: 7%;
+	height: 4%;
+	position: fixed;
+	transition: .3s all;
+	z-index:1;
+}
+
+.bar ul{
+	padding: 0;
+	text-align: center;
+}
+.bar li{
+	list-style: none;
+	transition: 0.3s all;
+}
+.bar a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+.bar img {
+	height: 60px;
+	width: 60px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.bar:hover{
+	width: 300px;
+	height: 100%;
+	background-color: rgba(238, 239, 240, 0.9);
+}
+.bar:hover a{
+	font-size: 20px;
+	color: #7F7F7F;
+	display: block;
+	padding: 20px;
+}
+.bar:hover img {
+	height: 0px;
+	width: 0px;
+}
+.bar:hover li {
+	list-style: none;
+	border-top: 2px solid #B1B2B3;
+	width: 80%;
+	margin-left: 10%;
+}
+.bar:hover a:hover{
+	color: #525151;
+	font-size: 20px;
+	padding: 30px 0px;
+	background-color: rgba(188, 188, 188, 0.5);
+}
+
+
+
+
+    /*Apartado de Boton de compras*/
+    #bu1 {
+        font-size: 14px;
+        border: none;
+        color: white;
+        width: 140px;
+        height: 60px;
+        background: #F27D14;
+        padding-top: 0%;
+        margin-top: 0%;
+        float: right;
+        }
+    #bu1:hover{
+        color: white;
+        background-color: rgba(233, 179, 128, 0.9);
+    }
+
+    /*  FIN Apartado de Boton de compras*/
+
+/*boton de copra de producto de carrucel*/
+#btn1 {
+	text-align: center;
+    margin-right: 150px;
+	padding: 10px;
+	background: orange;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	position: relative;
+	font-weight: bold;
+    width: 100px;
+    height: 94px;
+
+}
+#btn1:hover {
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+.imgbt {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	position: relative;
+}
+
+/*fin de boton*/
+
+
+
+/*Aqui va el estilo del pie de pagina que ira en todas las paginas*/
+.Footer{
+    background-color: #0b6c96;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 15px; 
+    color: white;
+    position: relative;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 4px;
+}
+
+
+/* CREADO POR: BOARDKEY*/

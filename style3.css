@@ -1,0 +1,157 @@
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#name29{
+	background-color: #ffffffcb;
+}
+.caja{
+	background-color: #ffffff67;
+}
+.body{
+	background-color: rgb(255, 255, 255);
+}
+.conts{
+	display: inline-block;
+	margin-top: 0px;
+	width: 300px;
+	margin-top: 90px;
+	margin-left: 20px;
+
+}
+
+
+
+#button{
+	margin-top: 1px;
+	text-decoration: none;
+}
+
+.info{
+	padding-top:100px;
+		color: #0b6c96; 
+
+}
+#info3{
+	padding-top:190px;
+color: #0b6c968a; 
+	text-decoration: none
+}
+
+#primary{
+	color:white;
+}
+#imgcom{
+	width: 15px;
+	height:15px;
+}
+#imgca{
+	border-radius: 10px;
+	width: 70px;
+	height:70px;
+}
+
+.producto{
+    text-align: center;
+}
+
+button{
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255, 157, 10);
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
+
+
+.cua{
+	margin-right: 0x;
+}
+.cont1{
+	padding: 20px;
+	margin-right: 0px;
+}
+.cont{
+	margin-left: 0px;
+	text-align: center;
+	margin-right: 0x;
+}
+
+.cont img {
+	height: 150px;
+	width: 150px;
+}
+
+  
+
+
+  .bus{
+	background-color:#ffffff67 ;
+	margin-top: 10px;
+	margin-left: 70px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-bottom: 20px;
+}
+
+  .container-2{
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+  }
+  .container-2 input#search{
+	width: 350px;
+	height: 50px;
+	background: #2b303b;
+	border: none;
+	font-size: 12pt;
+	float: left;
+	color: #262626;
+	padding-left: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+   
+	-webkit-transition: width .55s ease;
+	-moz-transition: width .55s ease;
+	-ms-transition: width .55s ease;
+	-o-transition: width .55s ease;
+	transition: width .55s ease;
+  }
+  .container-2 input#search::-webkit-input-placeholder {
+	color: #65737e;
+ }
+  
+ .container-2 input#search:-moz-placeholder { /* Firefox 18- */
+	color: #65737e;  
+ }
+  
+ .container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+	color: #65737e;  
+ }
+  
+ .container-2 input#search:-ms-input-placeholder {  
+	color: #65737e;  
+ }
+ .container-2 .icon{
+	position: absolute;
+	top: 50%;
+	margin-left: 17px;
+	margin-top: 17px;
+	z-index: 1;
+	color: #ffffff;
+  }
+
+
+
+
+
+
+
+
+

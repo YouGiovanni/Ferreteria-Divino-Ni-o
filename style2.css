@@ -1,0 +1,105 @@
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, .8),rgba(0, 0, 0, 0.8)), url(../ferr.jpg);
+
+	background-size: cover;
+}
+article{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+
+section{
+	border-radius: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../ferr.jpg);
+	padding-bottom: 20px;
+}
+ul{
+	text-align: left;
+	list-style: none;
+}
+li{
+	margin: 20px;
+}
+
+input{
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 20px;
+	padding-right: 40%;
+    background: #212121;
+    filter: alpha(opacity=80);
+    opacity: .8;
+
+}
+
+button{
+	background: #FF2A48;
+	padding: 10px 30%;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
+
+
+
+.tit11 {
+	font-family:Century Gothic;
+	font-size: 23px;
+}
+
+.tit1 {
+	font-family:Century Gothic;
+	font-size: 35px;
+}
+
+.tit2{
+	font-family:Century Gothic;
+	font-size: 25px;
+}
+
+.tit3{
+	font-size: 15px;
+}
+
+.img{
+	padding-bottom: 30px;
+	width: 460px;
+}
+.boton{
+	width: 10px;
+}
+::placeholder{
+	color: #BBBBBB;
+}
+
+button:hover{
+	background-color: #86173B;
+}
+
+.con3{
+	background: #000000;
+	float: left;
+    margin-top: 200px;
+	margin-left: 5px;
+    color: #BBBBBB;
+	border: none;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+.con4{
+	background: #000000;
+	float: right;
+    margin-top: 200px;
+	margin-right: 195px;
+    color: #BBBBBB;
+	border: none;
+	border-radius: 20px;
+	padding: 30px;
+}

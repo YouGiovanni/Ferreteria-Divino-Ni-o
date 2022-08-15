@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+}
+.header{
+    height:15px;
+    margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 10px;  
+    padding-top: 25px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 290px; 
+    width: 360px;
+
+}
+.title{
+    height:15px;
+    margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 10px;  
+    padding-top: 25px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 200px; 
+    width: 360px;
+}
+body
+{
+	margin:0;
+	padding:0;
+    background-image: url("../img/fondo_index.jpeg");
+  
+}
+.form{
+    width: 700px; 
+    height: 300px;
+    margin-left: 600px;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  
+}
+.cajafuera
+{
+    background-color: rgba(0, 0, 0, 0.794);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+.textofin{
+    padding-top: 30px;
+}
+.caja2{
+    padding-bottom: 3px;
+}

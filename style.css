@@ -1,0 +1,379 @@
+body{
+    background-color: #e0e0e0;
+}
+.Encabezado{
+    background-color: black;
+    font-family: Louis George CaféS; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 34px; 
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.envio{
+    background-color: #0b6c96;
+    font-family: Louis George Café;
+    font-size: 14px; 
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+    padding-bottom: 10px;
+
+}
+.apartado1{
+    background-color: transparent;
+    text-decoration: none;
+}
+.botonapartado1{ 
+    background-color: transparent;
+    display: inline-block;
+    font-family: Louis George Café;
+    font-size: 12px; 
+    padding-top: 0px;
+    padding-bottom: 5px;
+    color: #878786;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+
+.flexsearch--wrapper {
+    
+	height: auto;
+	width: auto;
+	overflow: hidden;
+	background: transparent;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 5%;
+}   
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+    margin-top: 25px;
+    margin-right: 25px;
+ 	height: 35px;
+     width: 210px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  color: #333;
+  font-family: 'Louis George Café', Louis George Café;
+	font-size: 16px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+
+
+.bar{
+	width: 5%;
+	height: 4%;
+	position: fixed;
+	transition: .4s all;
+	z-index:1;
+}
+
+.bar ul{
+	padding: 0;
+	text-align: center;
+}
+.bar li{
+	list-style: none;
+	transition: 0.3s all;
+}
+.bar a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+.bar img {
+	height: 35px;
+	width: 35px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.bar:hover{
+	width: 300px;
+	height: 100%;
+	background-color: rgba(238, 239, 240, 0.9);
+}
+.bar:hover a{
+	font-size: 20px;
+	color: #7F7F7F;
+	display: block;
+	padding: 20px;
+}
+.bar:hover img {
+	height: 0px;
+	width: 0px;
+}
+.bar:hover li {
+	list-style: none;
+	border-top: 2px solid #B1B2B3;
+	width: 80%;
+	margin-left: 10%;
+}
+.bar:hover a:hover{
+	color: #525151;
+	font-size: 20px;
+	padding: 30px 0px;
+	background-color: rgba(188, 188, 188, 0.5);
+}
+#bu1 {
+	font-size: 14px;
+    font-family: Louis George CaféS;
+	border: none;
+	color: white;
+    width: 112px;
+    height: 10px;
+	background: #F27D14;
+	padding: 18px;
+	margin-left: 40px;
+    }
+#bu1:hover{
+	color: white;
+	background-color: rgba(233, 179, 128, 0.9);
+}
+
+
+
+
+.apartado1a{
+    background-color: transparent;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.apartado2{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.botoninicio{
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Louis George Café;
+    font-size: 16px; 
+    margin-left: 6px;
+    width: 130px;
+    height: 60px;
+    padding-top: 25px;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.botoninicio:hover{
+    background: #f5f5f5;
+    box-shadow: 0 0 10px #bdbdbd, 0 0 40px #bdbdbd, 0 0 80px #bdbdbd;
+    transition-delay: 1s; 
+}
+.botoninicio samp{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#bdbdbd);
+}
+.botoninicio:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#bdbdbd);
+}
+.botoninicio:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#bdbdbd);
+}
+.botoninicio:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#bdbdbd);
+}
+.botoninicio:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.botones{
+ background-color: #bdbdbd;
+ font-family: Louis George Café;  
+ padding-top: 15px;
+ padding-bottom: 7px;
+font-size:  18px;
+}
+
+.Footer{
+    background-color: #0b6c96;
+    font-family: Century Gothic; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    font-size: 15px; 
+    color: white;
+    position: relative;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    margin-top: 60px;
+}
+.formato{
+    font-family: Louis George Café;
+}
+input{
+	padding: 10px;
+	margin:  20px;
+	background: #E7E7E7;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+main{
+	display: flex;
+	width: 100%;
+	height: calc(100vh - 200px);
+}
+section{
+	margin-left: 15%;
+	display: inline-block;
+	background: #D4D4D4;
+	width: 35%;
+	height: 100%;
+	border-right: 1px solid #6C6C6C;
+}
+.se1{
+	padding-top: 20px;
+	color: #2C2F31;
+	font-size: 30px;
+	text-align: center;
+	color: #515151;
+}
+label{
+	margin: 10px;
+	margin-left: 20px;
+	padding: 0;
+	display: block;
+	color: #515151;
+}
+.log{
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-right: 40%;
+	color: #515151;
+}
+.ag {
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #515151;
+}
+.ven {
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #515151;
+}
+aside{
+	margin-right: 15%;
+	background: #D4D4D4;
+	width: 35%;
+	height: 100%;
+	text-align: center;
+	border-left: 1px solid #6C6C6C;
+}
+#p1{
+	padding-top: 20px;
+	color: #515151;
+	font-size: 25px;
+    font-family: Louis George Cafés;
+}
+#p2{
+	padding-top: 30px;
+	color: #515151;
+    font-family: Louis George Cafés;
+}
+#bu3{
+	color: white;
+	font-size: 20px;
+	border: none;
+	background: #F27D14;
+	border-radius: 30px;
+	padding: 20px 40px;
+	margin-top: 40px;
+}
+#bu3:hover{
+	background: #D0D8E0;
+	background-color: rgba(233, 179, 128, 0.9);
+}
